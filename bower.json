@@ -5,7 +5,7 @@
 	"author": "Michael Herrmann",
 	"license": "MIT",
 	"homepage": "https://github.com/mherrmann/fullcalendar-columns",
-	"main": "fullclendar-columns.js",
+	"main": "fullcalendar-columns.js",
 	"ignore": [
 		".*",
 		"Gemfile",
