@@ -204,7 +204,7 @@
 		},
 		_triggerExternalDrop: function(event, dropLocation, el, ev, ui) {
 			// Trigger 'drop' regardless of whether element represents an event
-			this.trigger('drop', el[0], dropLocation.start, ev, ui);
+			this.trigger('drop', el[0], dropLocation.start, ev, ui, dropLocation.column);
 			if (event)
 				this.trigger('eventReceive', null, event);
 		}
